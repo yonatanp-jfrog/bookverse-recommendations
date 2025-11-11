@@ -378,7 +378,7 @@ recommendations:
   api:
     enabled: true
     image:
-      repository: releases.jfrog.io/bookverse-recommendations-prod-docker-local
+      repository: swampupsec.jfrog.io/bookverse-recommendations-prod-docker-local
       tag: "1.2.3"
     replicas: 3
     resources:
@@ -392,7 +392,7 @@ recommendations:
   worker:
     enabled: true
     image:
-      repository: releases.jfrog.io/bookverse-recommendations-prod-docker-local
+      repository: swampupsec.jfrog.io/bookverse-recommendations-prod-docker-local
       tag: "1.2.4"
     replicas: 1
     resources:
