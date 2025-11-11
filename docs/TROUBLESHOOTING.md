@@ -372,7 +372,7 @@ jf rt ping
 jf pip-config --repo-resolve "bookverse-pypi-virtual"
 
 # Test manual installation
-pip install pytest==8.3.2 --index-url https://swampupsec.jfrog.io/artifactory/api/pypi/bookverse-pypi-virtual/simple
+pip install pytest==8.3.2 --index-url https://apptrusttraining1.jfrog.io/artifactory/api/pypi/bookverse-pypi-virtual/simple
 ```
 
 #### Solutions
