@@ -44,8 +44,8 @@ For detailed information, see our extensive documentation suite:
 ```yaml
 # Repository Variables
 PROJECT_KEY: "bookverse"
-JFROG_URL: "https://swampupsec.jfrog.io"
-DOCKER_REGISTRY: "swampupsec.jfrog.io"
+JFROG_URL: "https://apptrusttraining1.jfrog.io"
+DOCKER_REGISTRY: "apptrusttraining1.jfrog.io"
 EVIDENCE_KEY_ALIAS: "bookverse-evidence-key"
 
 # Repository Secrets

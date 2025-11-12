@@ -300,9 +300,9 @@ POST /apptrust/api/v1/applications/bookverse-recommendations/versions
 
 ```yaml
 # JFrog Configuration
-JFROG_URL: "https://swampupsec.jfrog.io"
+JFROG_URL: "https://apptrusttraining1.jfrog.io"
 PROJECT_KEY: "bookverse"
-DOCKER_REGISTRY: "swampupsec.jfrog.io"
+DOCKER_REGISTRY: "apptrusttraining1.jfrog.io"
 
 # Evidence Configuration  
 EVIDENCE_KEY_ALIAS: "bookverse-evidence-key"
@@ -335,8 +335,8 @@ CONFIG_VERSION: "1.2.1"
 RESOURCES_VERSION: "1.2.2"
 
 # Images
-IMAGE_NAME: "swampupsec.jfrog.io/bookverse-recommendations-internal-docker-nonprod-local/recommendations:1.2.3"
-WORKER_IMAGE: "swampupsec.jfrog.io/bookverse-recommendations-internal-docker-nonprod-local/recommendations-worker:1.2.4"
+IMAGE_NAME: "apptrusttraining1.jfrog.io/bookverse-recommendations-internal-docker-nonprod-local/recommendations:1.2.3"
+WORKER_IMAGE: "apptrusttraining1.jfrog.io/bookverse-recommendations-internal-docker-nonprod-local/recommendations-worker:1.2.4"
 
 # Authentication
 JF_OIDC_TOKEN: "[Generated OIDC access token]"
@@ -612,7 +612,7 @@ jf rt curl -XGET "/access/api/v1/oidc/providers" | jq '.[] | select(.name=="book
 {
   "name": "bookverse-recommendations-github",
   "issuer_url": "https://token.actions.githubusercontent.com",
-  "audience": "https://swampupsec.jfrog.io"
+  "audience": "https://apptrusttraining1.jfrog.io"
 }
 ```
 
